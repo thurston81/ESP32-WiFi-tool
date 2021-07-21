@@ -11,6 +11,6 @@ set(COMPONENT_SRCS "main.cpp"
 		"web_host.cpp"
 		"init.cpp")
 
-set(COMPONENT_ADD_INCLUDEDIRS "include")
+set(COMPONENT_ADD_INCLUDEDIRS "components")
 
 register_component()

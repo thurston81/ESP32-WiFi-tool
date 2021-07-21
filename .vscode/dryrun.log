@@ -1,0 +1,9 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'd:/Users/Owner/source/repos/ESP32-WiFi-tool'
+make: Leaving directory 'd:/Users/Owner/source/repos/ESP32-WiFi-tool'
+ 
+Makefile:8: /D/Users/Owner/esp/esp-idf/make/project.mk: No such file or directory
+make: *** No rule to make target '/D/Users/Owner/esp/esp-idf/make/project.mk'.
+make: Failed to remake makefile '/D/Users/Owner/esp/esp-idf/make/project.mk'.
+make: *** No targets.  Stop.
+ 
