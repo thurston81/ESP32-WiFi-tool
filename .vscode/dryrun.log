@@ -2,8 +2,5 @@ make.exe --dry-run --always-make --keep-going --print-directory
 make: Entering directory 'd:/Users/Owner/source/repos/ESP32-WiFi-tool'
 make: Leaving directory 'd:/Users/Owner/source/repos/ESP32-WiFi-tool'
  
-Makefile:8: /D/Users/Owner/esp/esp-idf/make/project.mk: No such file or directory
-make: *** No rule to make target '/D/Users/Owner/esp/esp-idf/make/project.mk'.
-make: Failed to remake makefile '/D/Users/Owner/esp/esp-idf/make/project.mk'.
-make: *** No targets.  Stop.
+D:\Users\Owner\esp\esp-idf/make/project.mk:114: *** IDF_PATH cannot contain colons. If overriding IDF_PATH on Windows, use MSYS Unix-style /c/dir instead of C:/dir.  Stop.
  

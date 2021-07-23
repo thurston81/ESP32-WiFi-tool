@@ -6,12 +6,12 @@
                 "${workspaceRoot}",
                 "${workspaceRoot}/components/tft_st7735/include",
                 "${workspaceRoot}/components/mm_common/include",
-                "${workspaceRoot}/components/web_host/include",
+                // "${workspaceRoot}/components/web_host/include",
                 "${workspaceRoot}/components/wifi_func_set/include",
-                "${workspaceRoot}/build/config",
-                "D:\\Users\\Owner\\esp\\esp-idf\\components\/xtensa/include",
-                "D:\\Users\\Owner\\esp\\esp-idf\\components\/xtensa/esp32/include",
-                "D:\\Users\\Owner\\esp\\esp-idf\\components\/esp_rom/include",
+                // "${workspaceRoot}/incluce/build/",
+                "D:\\Users\\Owner\\esp\\esp-idf\\components\\xtensa\\include",
+                "D:\\Users\\Owner\\esp\\esp-idf\\components\\xtensa\\esp32\\include",
+                "D:\\Users\\Owner\\esp\\esp-idf\\components\\esp_rom\\include",
                 "D:\\Users\\Owner\\esp\\esp-idf\\components\/log/include",
                 "D:\\Users\\Owner\\esp\\esp-idf\\components\/soc/include",
                 "D:\\Users\\Owner\\esp\\esp-idf\\components\/soc/esp32/include",
@@ -42,14 +42,16 @@
                 "D:\\Users\\Owner\\esp\\esp-idf\\components\\fatfs\\vfs",
                 "D:\\Users\\Owner\\esp\\esp-idf\\components\//fatfs//src",
                 "D:\\Users\\Owner\\esp\\esp-idf\\components\/wear_levelling/include",
-                "D:\\Users\\Owner\\esp\\esp-idf\\components\/esp_http_server/include"
+                "D:\\Users\\Owner\\esp\\esp-idf\\components\/esp_http_server/include",
+                "D:\\Users\\Owner\\esp\\esp-idf\\tools"
             ],
             "intelliSenseMode": "clang-x64",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "browse": {
                 "path": [
-                    "${workspaceRoot}/**"
+                    "${workspaceRoot}/**",
+                    "D:\\Users\\Owner\\esp\\esp-idf\\tools\\**"
                 ]
             },
             "configurationProvider": "ms-vscode.makefile-tools"

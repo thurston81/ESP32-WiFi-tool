@@ -1,6 +1,5 @@
 make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
-Makefile:8: /D/Users/Owner/esp/esp-idf/make/project.mk: No such file or directory
-make: *** No rule to make target '/D/Users/Owner/esp/esp-idf/make/project.mk'.  Stop.
+D:\Users\Owner\esp\esp-idf/make/project.mk:114: *** IDF_PATH cannot contain colons. If overriding IDF_PATH on Windows, use MSYS Unix-style /c/dir instead of C:/dir.  Stop.
  
 # GNU Make 4.3
 # Built for Windows32
@@ -9,7 +8,7 @@ make: *** No rule to make target '/D/Users/Owner/esp/esp-idf/make/project.mk'.  
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jul 20 22:52:01 2021
+# Make data base, printed on Fri Jul 23 11:46:01 2021
 
 # Variables
 
@@ -21,12 +20,12 @@ LC_ALL = C
 PROJECT_NAME := mm-test
 # environment
 USERPROFILE = C:\Users\Owner
-# environment
-IDF_PATH = /D/Users/Owner/esp/esp-idf
+# makefile (from 'D:\Users\Owner\esp\esp-idf/make/project.mk', line 89)
+IDF_PATH := D:/Users/Owner/esp/esp-idf
 # environment
 LOCALAPPDATA = C:\Users\Owner\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-d158fe18-0550-4951-b375-4b2532cb72dc-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-48514343-28c2-4384-9c83-e880f33a8250-sock
 # environment
 VSCODE_CWD = D:\Users\Owner\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -44,7 +43,9 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # environment
 DOKANLIBRARY1_LIBRARYPATH_X64 = C:\Program Files\Dokan\Dokan Library-1.4.1\lib\
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_7116_CBKEAPMONMCNTIRH
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17508_YJDAYQLFWZDIGZFB
+# makefile (from 'D:\Users\Owner\esp\esp-idf/make/project.mk', line 53)
+NON_INTERACTIVE_TARGET = defconfig clean% %clean help list-components print_flash_cmd check_python_dependencies
 # environment
 VSCODE_BROWSER_CODE_LOADING = bypassHeatCheck
 # environment
@@ -72,7 +73,7 @@ TMP = C:\Users\Owner\AppData\Local\Temp
 # environment
 PROCESSOR_ARCHITEW6432 = AMD64
 # makefile
-MAKEFLAGS = prR
+MAKEFLAGS = pqrR
 # environment
 ONEDRIVE = C:\Users\Owner\OneDrive
 # makefile
@@ -88,7 +89,7 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 PROGRAMFILES = C:\Program Files (x86)
 # environment
-MFLAGS = -prR
+MFLAGS = -pqrR
 # default
 .SHELLFLAGS := -c
 # environment
@@ -97,14 +98,16 @@ COMMONPROGRAMW6432 = C:\Program Files\Common Files
 +D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
 # environment
 IDF_TOOLS_PATH = d:\Users\Owner\.espressif
-# makefile (from 'Makefile', line 1)
-MAKEFILE_LIST := Makefile
+# makefile (from 'D:\Users\Owner\esp\esp-idf/make/project.mk', line 1)
+MAKEFILE_LIST := Makefile D:\Users\Owner\esp\esp-idf/make/project.mk
 # automatic
 @F = $(notdir $@)
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 7116
+VSCODE_PID = 17508
+# makefile (from 'D:\Users\Owner\esp\esp-idf/make/project.mk', line 84)
+SANITISED_IDF_PATH := D:/Users/Owner/esp/esp-idf
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -132,13 +135,11 @@ COMSPEC = C:\Windows\system32\cmd.exe
 # environment
 WINDIR = C:\Windows
 # environment
-NODE_RED_HOME = c:\Users\Owner\.vscode\extensions\formulahendry.vscode-node-red-0.2.0\node_modules\node-red
-# environment
 MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = "C:\Users\Owner\.platformio\penv\Scripts;";/D/Users/Owner/esp/esp-idf\tools;D:\Program Files\AdoptOpenJDK\jdk-16.0.1.9-hotspot\bin;D:\Program Files\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files\dotnet\;C:\Users\Owner\Documents\Arduino\libraries;D:\Users\Owner\Documents;D:\Users\Owner\esp\esp-idf;D:\Program Files\CMake\bin;C:\ProgramData\chocolatey\bin;C:\Python39\Scripts;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile64\;C:\Program Files (x86)\Common Files\Acronis\FileProtector\;C:\Program Files (x86)\Common Files\Acronis\FileProtector64\;D:\apps\cmake\bin;D:\LLVM\bin;D:\Program Files (x86)\nodejs\;C:\Python39\;C:\Program Files\PuTTY\;d:\apps\msys64\mingw64\bin;D:\apps\Git\cmd;C:\Python39\Scripts\;C:\Python39\;C:\Users\Owner\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Owner\AppData\Local\Programs\Python\Python39\;C:\Users\Owner\AppData\Local\Microsoft\WindowsApps;C:\Users\Owner\.dotnet\tools;d:\Users\Owner\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Owner\AppData\Local\GitHubDesktop\bin;C:\Users\Owner\AppData\Roaming\npm;C:\Users\Owner\AppData\Roaming\Python\Python39\Scripts;d:\apps\msys64\mingw64\bin;
+PATH = C:\Users\Owner\.platformio\penv\Scripts;D:\Users\Owner\esp\esp-idf\tools;D:\Program Files\AdoptOpenJDK\jdk-16.0.1.9-hotspot\bin;D:\Program Files\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files\dotnet\;C:\Users\Owner\Documents\Arduino\libraries;D:\Users\Owner\Documents;D:\Users\Owner\esp\esp-idf;D:\Program Files\CMake\bin;C:\ProgramData\chocolatey\bin;C:\Python39\Scripts;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile64\;C:\Program Files (x86)\Common Files\Acronis\FileProtector\;C:\Program Files (x86)\Common Files\Acronis\FileProtector64\;D:\apps\cmake\bin;D:\LLVM\bin;D:\Program Files (x86)\nodejs\;C:\Python39\;C:\Program Files\PuTTY\;d:\apps\msys64\mingw64\bin;D:\apps\Git\cmd;C:\Python39\Scripts\;C:\Python39\;C:\Users\Owner\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Owner\AppData\Local\Programs\Python\Python39\;C:\Users\Owner\AppData\Local\Microsoft\WindowsApps;C:\Users\Owner\.dotnet\tools;d:\Users\Owner\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Owner\AppData\Local\GitHubDesktop\bin;C:\Users\Owner\AppData\Roaming\npm;C:\Users\Owner\AppData\Roaming\Python\Python39\Scripts;d:\apps\msys64\mingw64\bin;C:\Program Files (x86)\Nmap
 # environment
 ZES_ENABLE_SYSMAN = 1
 # environment
@@ -171,18 +172,20 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
 USERDOMAIN = SEANSLAPTOP
-# 'override' directive
+# environment
 GNUMAKEFLAGS := 
 # environment
 OS = Windows_NT
 # environment
 DOKANLIBRARY1 = C:\Program Files\Dokan\Dokan Library-1.4.1\
 # makefile
-.DEFAULT_GOAL := 
+.DEFAULT_GOAL := all
 # default
 MAKE_VERSION := 4.3
 # environment
 PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'D:\Users\Owner\esp\esp-idf/make/project.mk', line 100)
+IDF_TARGET := esp32
 # environment
 USERDOMAIN_ROAMINGPROFILE = SEANSLAPTOP
 # environment
@@ -224,7 +227,7 @@ PROCESSOR_REVISION = 9e0a
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
 # variable set hash-table stats:
-# Load=105/1024=10%, Rehash=0, Collisions=8/129=6%
+# Load=107/1024=10%, Rehash=0, Collisions=8/137=6%
 
 # Pattern-specific Variable Values
 
@@ -232,9 +235,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
 
 # Directories
 
-# . (key d:/Users/Owner/source/repos/ESP32-WiFi-tool, mtime 1626756016): 24 files, no impossibilities.
+# . (key d:/Users/Owner/source/repos/ESP32-WiFi-tool, mtime 1627058590): 23 files, no impossibilities.
 
-# 24 files, no impossibilities in 1 directories.
+# 23 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -243,15 +246,63 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
 # Files
 
 # Not a target:
-/D/Users/Owner/esp/esp-idf/make/project.mk:
-#  Implicit rule search has been done.
-#  File does not exist.
+build-components:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all_binaries:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
 Makefile:
 #  Implicit rule search has not been done.
-#  Last modified 2021-07-02 18:06:51
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+size-symbols:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+list-components:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+size:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+defconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+size-files:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+menuconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
@@ -260,27 +311,93 @@ Makefile:
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a target:
-all:
+all: all_binaries | check_python_dependencies
 #  Command line target.
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
+# Not a target:
+size-components:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+help:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'D:\Users\Owner\esp\esp-idf/make/project.mk', line 25):
+	@echo "Welcome to Espressif IDF build system. Some useful make targets:"
+	@echo ""
+	@echo "make menuconfig - Configure IDF project"
+	@echo "make defconfig - Set defaults for all new configuration options"
+	@echo ""
+	@echo "make all - Build app, bootloader, partition table"
+	@echo "make flash - Flash app, bootloader, partition table to a chip"
+	@echo "make clean - Remove all build output"
+	@echo "make size - Display the static memory footprint of the app"
+	@echo "make size-components, size-files - Finer-grained memory footprints"
+	@echo "make size-symbols - Per symbol memory footprint. Requires COMPONENT=<component>"
+	@echo "make erase_flash - Erase entire flash contents"
+	@echo "make erase_otadata - Erase ota_data partition; First bootable partition (factory or OTAx) will be used on next boot."
+	@echo "                     This assumes this project's partition table is the one flashed on the device."
+	@echo "make monitor - Run idf_monitor tool to monitor serial output from app"
+	@echo "make simple_monitor - Monitor serial output on terminal console"
+	@echo "make list-components - List all components in the project"
+	@echo ""
+	@echo "make app - Build just the app"
+	@echo "make app-flash - Flash just the app"
+	@echo "make app-clean - Clean just the app"
+	@echo "make print_flash_cmd - Print the arguments for esptool when flash"
+	@echo "make check_python_dependencies - Check that the required python packages are installed"
+	@echo ""
+	@echo "See also 'make bootloader', 'make bootloader-flash', 'make bootloader-clean', "
+	@echo "'make partition_table', etc, etc."
+
+# Not a target:
+check-submodules:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+check_python_dependencies:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+D:\Users\Owner\esp\esp-idf/make/project.mk:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: build-components menuconfig defconfig all build clean all_binaries check-submodules size size-components size-files size-symbols list-components
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
 # files hash-table stats:
-# Load=5/1024=0%, Rehash=0, Collisions=0/16=0%
+# Load=20/1024=2%, Rehash=0, Collisions=0/38=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 28 / storage = 289 B / avg = 10 B
-# current buf: size = 8174 B / used = 289 B / count = 28 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 41 / storage = 451 B / avg = 11 B
+# current buf: size = 8174 B / used = 451 B / count = 41 / avg = 11 B
 
-# strcache performance: lookups = 33 / hit rate = 15%
+# strcache performance: lookups = 53 / hit rate = 22%
 # hash-table stats:
-# Load=28/8192=0%, Rehash=0, Collisions=0/33=0%
-# Finished Make data base on Tue Jul 20 22:52:01 2021
+# Load=41/8192=1%, Rehash=0, Collisions=0/53=0%
+# Finished Make data base on Fri Jul 23 11:46:01 2021
 
  
