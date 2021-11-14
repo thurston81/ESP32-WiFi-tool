@@ -1,0 +1,11 @@
+make.exe -f "d:\Users\Owner\source\repos\ESP32-WiFi-tool\${workspaceFolder}" -C "D:/apps/GNUWin32/bin" --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'D:/apps/GNUWin32/bin'
+ 
+make: d:\Users\Owner\source\repos\ESP32-WiFi-tool\${workspaceFolder}: No such file or directory
+ 
+make: *** No rule to make target 'd:\Users\Owner\source\repos\ESP32-WiFi-tool\${workspaceFolder}'.
+make: Failed to remake makefile 'd:\Users\Owner\source\repos\ESP32-WiFi-tool\${workspaceFolder}'.
+make: *** No targets specified and no makefile found.  Stop.
+ 
+make: Leaving directory 'D:/apps/GNUWin32/bin'
+ 
